@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//WebContent/NewFile3.html=UTF-8
+encoding//WebContent/WEB-INF/views/customer/notice/list.jsp=UTF-8
+encoding//WebContent/notice.jsp=UTF-8
+encoding//src/com/newlecture/javaweb/controller/admin/notice/NoticeDetailController.java=UTF-8
+encoding//src/com/newlecture/javaweb/controller/admin/notice/NoticeEditController.java=UTF-8
+encoding//src/com/newlecture/javaweb/controller/admin/notice/NoticeListController.java=UTF-8
+encoding//src/com/newlecture/javaweb/controller/admin/notice/NoticeRegController.java=UTF-8
+encoding//src/com/newlecture/javaweb/controller/customer/NoticeDetailController.java=UTF-8
+encoding//src/com/newlecture/javaweb/controller/customer/NoticeEditController.java=UTF-8
+encoding//src/com/newlecture/javaweb/controller/customer/NoticeListController.java=UTF-8
+encoding//src/com/newlecture/javaweb/controller/customer/NoticeRegController.java=UTF-8

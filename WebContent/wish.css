@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+.main-tabs {
+	width: 100%;
+	min-height: 130px;
+	background: #303a50;
+}
+
+body, dd, div, dl, dt, h1, h2, h3, h4, h5, html, li, ol, p, table, td,
+	textarea, th, ul {
+	margin: 0;
+	padding: 0;
+}
+
+*, :after, :before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div {
+	display: block;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	font-family: "Noto Sans KR", "Helvetica Neue", "Apple SD Gothic Neo",
+		Helvetica, Arial, "Apple Gothic", 돋움, Dotum, sans-serif;
+}
+
+body {
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #fff;
+}
+
+body, pre {
+	font-family: "맑은 고딕", "Malgun Gothic", "Helvetica Neue",
+		"Apple SD Gothic Neo", Helvetica, Arial, "Apple Gothic", "돋움", Dotum,
+		sans-serif !important;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	font-family: "Noto Sans KR", "Helvetica Neue", "Apple SD Gothic Neo",
+		Helvetica, Arial, "Apple Gothic", 돋움, Dotum, sans-serif;
+}
+
+html {
+	font-size: 10px;
+	-webkit-tap-highlight-color: transparent;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+*, :after, :before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, :after, :before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div {
+	display: block;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	font-family: "Noto Sans KR", "Helvetica Neue", "Apple SD Gothic Neo",
+		Helvetica, Arial, "Apple Gothic", 돋움, Dotum, sans-serif;
+}
+
+body {
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+}
+
+html {
+	font-size: 10px;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.search-method {
+	float: left;
+	width: 260px;
+	background: #f6f6f6;
+}
+
+body, dd, div, dl, dt, h1, h2, h3, h4, h5, html, li, ol, p, table, td,
+	textarea, th, ul {
+	margin: 0;
+	padding: 0;
+}

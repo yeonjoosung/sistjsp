@@ -1,0 +1,66 @@
+/*2´Ü ¸Þ´º*/
+
+
+#body{
+	margin-top: 158px;
+}
+
+#header {
+    position: absolute;
+}
+#sub-bg{
+	position:absolute;
+	top:104px;
+	width:100%;
+	height:54px;
+	background-color: #F8D9DD;
+	left:0;
+	z-index: 1;
+}
+
+/* .main-menu ul{
+	display:none;
+} */
+/*
+.on sub-menu{
+	display: block;
+}
+*/
+
+.sub-menu{
+	position:absolute;
+	width:550px;
+	left:-70px;
+	top: 78px;
+}
+.sub-menu li{
+	margin-left: 0px;
+	z-index: 30;
+}
+.sub-menu.hidden{
+	display: none;
+}
+.sub-menu a{
+	color: #727476;	
+	width: max-content;
+}
+
+.sub-menu > li > a{
+			color: #727476;
+			font-size: 15px;
+			text-align: center;
+			font-weight: 500;
+			text-decoration: none;
+			padding: 0px 10px 0px 10px;
+			display: block;
+			z-index:30;
+}
+.sub-menu li.active a,
+.sub-menu li a:hover{
+   color:#072622;
+   transition:0.5s all;
+   -webkit-transition:0.5s all;
+   -moz-transition:0.5s all;
+   -o-transition:0.5s all;
+   -ms-transition:0.5s all;
+}

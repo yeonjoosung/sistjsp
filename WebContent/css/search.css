@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* visual style */
+#search {
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+#search {
+	background: silver;
+	width: 100%;
+	height: 450px;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+}
+
+.banner-search {
+	background-color: rgba(20, 19, 19, 0.38);
+	height: 450px;
+	/* position: relative;*/
+	/* top: 180px; */
+	text-align: center;
+	color: white;
+}
+
+.search-context {
+	padding-top: 22%;
+	text-align: center;
+	padding-bottom: 22%;
+}
+
+.search-context>.btn-border {
+	color: #fff;
+	padding: 1em 2em;
+	border: 1px solid #fff;
+}
+
+.search-context> a:hover{
+	color: #F8D9DD;
+	border:1px solid #F8D9DD;
+}
+/* 아이나이 */
+

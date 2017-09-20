@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="check.css" type="text/css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+	<form class="search" method="get">
+		<div class="search-input cd-wrapper">
+		<div class="field flex cd-wrapper" id="searchform">
+			<input type="text" id="searchterm" placeholder="지역 검색" />
+			<!--  <button type="button" id="search">Find!</button> -->
+		</div>
+		</div>
+
+		
+		<div class="search-input">
+		<div class="cd-wrapper">		 
+			<div id="child-age" class="flex optional child-age">
+				  <div class="flex age-group"><span class="input-title">아이나이</span>
+				    <label class="age-label">
+				        <input name="kid-ages" type="checkbox" id="kid_age1" checked="">
+				        <span class="inner-label">12~24개월</span>
+				    </label>
+				    <label class="age-label">
+				        <input name="kid-ages" type="checkbox" id="kid_age2" checked="">
+				        <span class="inner-label">24~48개월</span>
+				    </label>
+				    <label class="age-label">
+				        <input name="kid-ages" type="checkbox" id="kid_age3" checked="">
+				        <span class="inner-label">4~5세</span>
+				    </label>
+				    <label class="age-label">
+				        <input name="kid-ages" type="checkbox" id="kid_age4" checked="">
+				        <span class="inner-label">6~8세</span>
+				    </label>
+				</div>
+			</div>
+			<div id="day-of-week" class="day-of-week optional">
+				
+				<div class="flex checkbox-group"><span class="input-title">요일 </span>
+					<input type="checkbox" id="_01" name="select" value="1" checked=""> 
+					<label for="_01"> 월 </label> 
+					<input type="checkbox" id="_02" name="select" value="2" checked=""> 
+					<label for="_02"> 화 </label>
+					<input type="checkbox" id="_03" name="select" value="3" checked=""> 
+					<label for="_03"> 수 </label> 
+					<input type="checkbox" id="_04" name="select" value="4" checked="">
+					<label for="_04"> 목 </label>
+					<input type="checkbox" id="_05" name="select" value="5" checked="">
+					<label for="_05"> 금 </label>
+					<input type="checkbox" id="_06" name="select" value="6" checked="">
+					<label for="_06"> 토 </label>
+					<input type="checkbox" id="_07" name="select" value="7" checked="">
+					<label for="_07"> 일 </label>
+				</div>
+			</div>
+    </div>
+		</div>
+
+		<div class="flex search-input">
+			<div class="flex optional">
+				<span class="input-title">시작시간 </span> 
+				<input type="time" min="09:00" max="22:00">
+			</div>
+			<div class="flex optional">
+				<span class="input-title">끝나는시간 </span> 
+				<input type="time" min="09:00" max="22:00">
+			</div>
+		</div>
+
+		<div class="search-input flex">
+		<div class="flex optional">
+			<a href="#0" class="bttn col">검색</a>
+		</div>
+		<div class="flex optional">
+			<a href="" class="bttn-dark dark">취소</a>
+		</div>
+		</div>
+	</form>
+	
+
+</body>
+</html>

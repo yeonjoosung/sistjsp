@@ -1,0 +1,405 @@
+@charset "UTF-8";
+
+a {
+	color: #979797;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* --------------------------------------------------------------------- */
+.hidden {
+	/* 	visibility:hidden; */
+	display: none;
+}
+
+/* visibility:hidden(자리o), display: none(자리x) */
+/*  */
+
+/* 막내 */
+.clearfix::after { /* :: ->가상,가짜 */
+	content: "";
+	clear: both;
+	display: block; /* table */
+}
+
+body {
+	font-family: 돋음, Arial, sans-serif;
+	font-size: 11px;
+	color: #979797;
+}
+
+/* #search-form input[type="submit"] {
+	background: url("../images/btn-zoom.png");
+	width: 31px;
+	height: 25px;
+	border: 0;
+	text-indent: -1000px;
+} */
+/* -------text style--------- */
+
+.text-left{
+	text-align: left;
+}
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
+.text-indent{
+	text-indent: 5px;
+}
+.text-strong{
+	font-weight: bold;
+	color: red;
+}
+
+
+/* ----------버튼 스타일-------------------- */
+.btn {
+	display: inline-block;
+	border: 0px;
+	overflow: hidden;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent; /* transparent:투명 */
+	border-radius: 4px;
+	padding: 3px 8px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.btn-img {
+	display: inline-block;
+	text-indent: -999px;
+	border: 0px;
+	cursor: pointer;
+	overflow: hidden;
+	border: 1px solid transparent; /* transparent:투명 */
+	border-radius: 4px;
+	background-image: none;
+}
+
+.btn-default {
+	/* background-color: #759d2a; */
+	border-color: #608618;
+	background: -webkit-radial-gradient(center, ellipse cover, #9dcf40 0%, #698c26 100%);
+}
+
+.btn-default:hover {
+	background: -webkit-radial-gradient(center, ellipse cover, #698c26 0%, #9dcf40 100%);
+	text-decoration: none;
+}
+
+.btn-search {
+	width: 31px;
+	height: 25px;
+	background: url("../images/btn-zoom.png") no-repeat center;
+	border-left: 1px solid #8CBA34;
+}
+
+.btn-cancel {
+	width: 64px;
+	height: 23px;
+	text-indent: -999px;
+	background: url("../images/btn-cancel.png") no-repeat center;
+}
+/* #main a {
+	width: 64px;
+	height: 23px;
+	background: url("../images/btn-cancel.png");
+	border: 0px;
+	text-indent: -29px;
+	display: inline-block;
+	overflow: hidden;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------- */
+/* hr-list */
+.hr-list {
+	/* border: 1px solid white; */
+	display: inline-block;
+}
+
+.hr-list ul {
+	/* border: 1px solid white; */
+	/* font-family: 맑은 고딕, 고딕, sans-serif;
+	font-size: 15px;
+	font-weight: bold; */
+	overflow: auto;
+}
+
+.hr-list li {
+	float: left;
+}
+
+.hr-list li:first-child {
+	padding-left: 0px;
+	background: none;
+}
+
+/*red
+ 	.hr-list ul>li:last-child a {
+		color: #ff6a00;
+	}
+ */
+
+/* main-menu */
+.main-menu {
+	display: inline-block;
+	left: 200px;
+	top: 27px;
+}
+
+.main-menu ul {
+	color: #000000;
+	overflow: auto;
+}
+
+.main-menu ul li{
+	padding-left: 24px;
+	background: url("../images/bg-main-menu-vsp.png") no-repeat 13px center;
+	float: left;
+}
+
+
+.main-menu a{
+	font-family: 맑은 고딕, 고딕, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+}
+	.main-menu ul>li:last-child a {
+		color: #ff6a00;
+	}
+#search-form {
+	width: 308px;
+	height: 25px;
+	border: 5px solid #8cba34;
+	left: 468px;
+	top: 21px;
+}
+
+#customer-menu {
+	right: 0px;
+	top: 40px;
+}
+/* member-list */
+.member-menu {
+	right: 0px;
+	top: 20px;
+}
+.member-menu a{
+	font-family: 맑은 고딕, 고딕, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #979797;
+}
+.member-menu ul li {
+	float: left;
+	padding-left: 9px;
+	background: url("../images/bg-member-menu-sp.png") no-repeat 4px center;
+}
+/* 격자형 (table)스타일 */
+
+
+.table{
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	border-top: 2px solid #8cba35;
+}
+/* table 안에 tr거나 table태그가 아닌경우 안에 class="tr"로 설정  */
+.table tr,.table .tr{
+	display: table-row;/* tr태그 자체는 자동적용 but 클래스의 경우 지정해줘야함 */
+	height: 30px;
+	line-height:30px;
+	
+}
+
+.table tr td, .table tr th, .table .tr .td{
+	display: table-cell;
+	border-bottom: 1px solid #e9e9e9;
+	text-align: center;
+}
+
+
+.table tr td.text-left, 
+.table tr th.text-left, 
+.table .tr .td.text-left,
+.table .tr .th.text-left
+{
+	text-align: left;
+}
+	.table th, .table .th{
+background: #f5f5f5 url("../images/bg-title-sp.png") no-repeat left center;
+
+}
+
+/*-------------------------------------------------  main style-------------------------------------------------  */
+main .title{
+	font-weight: bold;
+	color: #000;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+main .main {
+	font-family: 맑은 고딕, 고딕, sans-serif;
+	font-size: 21px;
+	color: #646464;
+	padding-left: 25px;
+	background: url("../images/icon-main-title.png") no-repeat left center;
+}
+main .sub{
+	
+}
+main .main.title{/* main이면서 title */
+	
+}
+main .table .w60{
+	min-width: 60px;
+}
+main .table .w100{
+	min-width: 100px;
+}
+
+
+/* -------------------------- */
+#header {
+	height: 71px;
+}
+
+#header>.content-container {
+	position: relative;
+}
+
+#header>.content-container>section>*, #logo {
+	position: absolute;
+}
+
+#logo {
+	display: inline-block;
+	top: 23px;
+	left: 0px;
+}
+
+#logo img {
+	vertical-align: middle;
+}
+
+/*  */
+
+/* 과거방식  */
+/* #main-menu li.first {	
+		padding-left: 0px;
+		background: none;
+	} */
+	
+	
+	
+	
+	
+/* 슈도(가상)클래스 */
+.content-container {
+	/* height: inherit;부모으 ㅣ높이그대로 -값을 물려받음
+	 */
+	margin: auto;
+	height: 100%;
+	min-height: inherit;
+	width: 960px;
+	/*  margin-left: auto;
+	 margin-right: auto; */
+}
+
+#visual {
+	border-top: solid 3px #8cba34;
+	background: #313131 url("../images/bg-visual.png");
+	height: 171px;
+}
+
+#visual .content-container {
+	background: #313131 url("../images/customer/visual.png") no-repeat
+		center;
+}
+
+/*-------------------- body style ----------------*/
+#body {
+	margin-top: 1px;
+	border-top: solid 3px #8cba34;
+	min-height: 300px;
+	/* background: url("../images/bg-body.png") repeat-y; */
+}
+
+#body .content-container {
+	background: url("../images/bg-body.png") repeat-y;
+}
+
+#aside {
+	float: left;
+	min-height: inherit;
+	width: 205px;
+	height: 300px;
+	overflow: auto;
+	/* auto(content가 넘쳤을때스크롤바), hidden(넘친거 숨김), scroll(무조건 스크롤바)  */
+	background: url("../images/bg-aside-title.png") no-repeat;
+	/* background-attachment: local; */
+}
+
+#main {
+	float: left;
+	min-height: inherit;
+	padding-left: 35px;
+	padding-top: 45px;
+	width: 755px;
+	box-sizing: border-box;
+	/* border-box :box안에 border를 넣음, content-box: content에 박스를 할당(기본값)*/
+}
+
+/* ------------------------------------------------ */
+#footer {
+	background: #313131;
+	height: 100px;
+}
+
+/* 
+#floating{
+	position: relative absolute relative;fixed; fixed 화면 기준 or absolute문서기준 
+	width: 100%;
+	height: 100px;
+	background:teal;
+	left: 0px;
+	top:10px;
+	bottom: 0;
+	
+}
+#floating > div{
+	width: 100px;
+	height: 100px;
+	background: blue;
+	position: absolute;
+	left: 0;
+	top: -10px;
+	
+} */
+/*
+#main-menu li.first ~ li {
+	color: red;
+}
+*/

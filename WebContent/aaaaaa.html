@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="aaa.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<form>
+		<fieldset>
+
+			<div id="child-age">
+				<div class="search-optional search-check">
+					<span>아이나이 </span> <input type="checkbox" id="control_01"
+						name="select" value="1" checked> <label for="control_01">
+						1~3세 </label> <input type="checkbox" id="control_02" name="select"
+						value="2" checked> <label for="control_02"> 3~5세 </label>
+					<input type="checkbox" id="control_03" name="select" value="3"
+						checked> <label for="control_03"> 5~7세 </label> <input
+						type="checkbox" id="control_04" name="select" value="4" checked>
+					<label for="control_04"> 7~9세 </label>
+				</div>
+			</div>
+
+			<div class="bx_group bx_location bx_select mb_20">
+				<h4 class="ml_5">
+					<span style="vertical-align: bottom;">지역</span><a
+						href="#location_help" data-rel="popup" data-transition="pop"
+						style="margin-left: 5px;" aria-haspopup="true"
+						aria-owns="location_help" aria-expanded="false" class="ui-link"><img
+						src="/images/icon/ms_icon_question_01.png" width="17"
+						style="vertical-align: bottom;"></a>
+				</h4>
+				<div style="display: none;" id="location_help-placeholder">
+					<!-- placeholder for location_help -->
+				</div>
+				<label for="filter_location"><div class="AA">
+						<input type="text" id="filter_location" name="filter_location"
+							placeholder="지역을 입력하세요. (예. 강남구, 수원시, 분당구)" data-type="search"
+							class=" " autocomplete="off"><a href="#" tabindex="-1"
+							aria-hidden="true"
+							class="ui-input-clear ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all ui-input-clear-hidden"
+							title="Clear text">Clear text</a>
+					</div></label>
+			</div>
+		</fieldset>
+	</form>
+
+
+	<form>
+		<div class="checkbox-group">
+			<input type="checkbox" id="option-one" name="selector"><label
+				for="option-one">One</label><input type="checkbox" id="option-two"
+				name="selector"><label for="option-two">Two</label><input
+				type="checkbox" id="option-three" name="selector"><label
+				for="option-three">Three</label>
+		</div>
+	</form>
+</body>
+</html>

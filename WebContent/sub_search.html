@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="css/common_style.css" type="text/css" rel="stylesheet" />
+<link href="css/style2.css" type="text/css" rel="stylesheet" />
+<link href="css/search.css" type="text/css" rel="stylesheet" />
+
+<title>베품</title>
+<!-- 버튼 -->
+<script language="javascript">
+	var lBar = $(".load");
+	var bar = $("button span");
+	var button = $("button");
+
+	button.on("click", function() {
+		lBar.addClass("loading");
+		setTimeout(function() {
+			lBar.removeClass("loading");
+			button.addClass("complete");
+		}, 500);
+	});
+</script>
+</head>
+
+<body>
+	<header id="header">
+		<div class="content-container clearfix">
+			<a href="./index.html"><img src="images/1616.png" id="logo"
+				alt="베품" /></a>
+			<section id="menu-container">
+				<nav class="menu-wrapper">
+
+					<ul class="main-menu">
+						<li><a href="">소개</a>
+							<ul class="sub-menu">
+								<li><a href="">서비스 소개</a></li>
+								<li><a href="">이용방법</a></li>
+							</ul></li>
+						<li><a href="">베푸미 찾기</a>
+							<ul class="sub-menu hidden">
+								<li><a href="">조건별 베푸미 찾기</a></li>
+								<li><a href="">매칭 내역</a></li>
+							</ul></li>
+						<li><a href="">커뮤니티</a>
+							<ul class="sub-menu hidden">
+								<li><a href="">자유게시판</a></li>
+								<li><a href="">후기게시판</a></li>
+							</ul></li>
+						<li><a href="">문의/FAQ</a>
+							<ul class="sub-menu hidden">
+								<li><a href="">문의게시판</a></li>
+								<li><a href="">신고게시판</a></li>
+							</ul></li>
+					</ul>
+				</nav>
+				<nav class="menu-wrapper">
+					<ul id="login">
+						<li><a href="" class="btn-border">Sign in</a></li>
+					</ul>
+				</nav>
+				<div id="sub-bg"></div>
+			</section>
+		</div>
+	</header>
+
+	<div id="search">
+		<div class="banner-search">
+			<div class="search-context">
+				<form action="" method="get">
+					<fieldset>
+						<legend>조건별 베푸미 조회</legend>
+						<div class="dolbom-search">
+							<input class="search optional" maxlength="255" id="search-region"
+								type="text" size="50" />
+						</div>
+						<div class="dolbom-search">
+							<input class="search optional" maxlength="255"
+								id="search-startperiod" type="date" size="50" /> <input
+								class="search optional" maxlength="255" id="search-endperiod"
+								type="date" size="50" />
+						</div>
+						<div>
+							<div id="child-age">
+							아이나이
+								<div>
+									<input type="checkbox" id="control_01" name="select" value="1">
+									<label for="control_01"> 0~3세 </label>
+								</div>
+								<div>
+									<input type="checkbox" id="control_02" name="select" value="2">
+									<label for="control_02"> 3~5세 </label>
+								</div>
+								<div>
+									<input type="checkbox" id="control_03" name="select" value="3">
+									<label for="control_03"> 5~7세 </label>
+								</div>
+								<div>
+									<input type="checkbox" id="control_05" name="select" value="5">
+									<label for="control_05"> 7~9세 </label>
+								</div>
+							</div>
+						</div>
+						<div class="dolbom-search">
+							<input type="submit" /> <input type="reset" />
+						</div>
+					</fieldset>
+				</form>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- <div id="visual">
+		<div class="dolbom-search">
+			<div class="content-container">
+				<form action="#" class="simform">
+					<fieldset>
+						<legend class="screen_out">조건별 베푸미 조회</legend>
+						<div class="box search">
+							<input type="text" name="searchBoard" id="searchBoard"
+								class="search_input inp_search" placeholder="검색" value="">
+						</div>
+
+						<button type="submit" class="btn_search" style="display: none;">
+							<span class="img_kabang ico_search">검색</span>
+						</button>
+					</fieldset>
+
+					<div id="banner-test">
+						<h1>엄마들의 육아 품앗이</h1>
+
+						<img src="" /><br /> <a href="" class="btn-border">베푸미 찾기</a>
+					</div>
+
+
+
+
+
+				</form>
+
+			</div>
+
+		</div>
+
+	</div> -->
+
+
+
+
+
+
+
+
+
+	<div id="body">
+		결과<br />
+	</div>
+	<footer id="footer">
+		<div class="content-container">
+			<h2>베품</h2>
+			<br />
+			<div>
+				<p>상호:베품</p>
+				<p>전화번호:010-000-000</p>
+				<p>관리자 이메일:admin@bepum.com</p>
+			</div>
+			<p>Copyright ⓒ bepum.com 2017-2017 All Right Reserved. Contact
+				admin@bepum.com for more information</p>
+		</div>
+	</footer>
+</body>
+</html>

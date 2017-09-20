@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+html, body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+ol, ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* All Device */
+.content-container {
+	margin: auto;
+	width: 1140px;
+	min-height: inherit;
+	height: inherit;
+}
+
+.btn-border {
+	border: 1px solid #808080;
+	border-radius: 8px;
+	padding: 10px 25px;
+}
+
+/* header style */
+#header {
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+	background-color: white;
+	top: 0;
+}
+
+#logo {
+	padding-left:10px;
+	padding-top: 10px; 
+	width : 80px;
+	height: 80px;
+	z-index: 7;
+	float: left;
+}
+
+/* 메뉴 */
+#menu-container{
+	float:right;
+	padding-top:1em;
+}
+.menu-wrapper{
+	float:left;
+	display:block;
+	padding-top:1em;
+}
+
+	
+	.menu-wrapper{
+		position:relative;
+	}
+		.menu-wrapper ul{
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+		}
+		.menu-wrapper li{
+			display:inline;
+			float:left;
+			postion:relative;
+			margin-left:30px;
+		}
+		.menu-wrapper a{
+			display:inline-block;
+			text-align:center;
+			text-decoration:none;
+			line-height:40px;
+		}
+	
+		.menu-wrapper ul li{
+			position: relative;
+		}
+		.main-menu {
+		    padding-top: 1em;
+		}
+		
+		.main-menu li{
+			float:left;
+		}
+		
+		.main-menu > li > a{
+			color: #727476;
+			font-size: 15px;
+			text-align: center;
+			font-weight: 500;
+			text-decoration: none;
+			border-bottom: 2px solid #fff;
+			padding: 0px 10px 30px 10px;
+			display: block;
+		}
+		.main-menu > li.active > a, 
+		.main-menu > li > a:hover{
+		   color:#F8D9DD;
+		   transition:0.5s all;
+		   -webkit-transition:0.5s all;
+		   -moz-transition:0.5s all;
+		   -o-transition:0.5s all;
+		   -ms-transition:0.5s all;
+		   border-bottom: 2px solid #F8D9DD;
+		}
+
+/*로그인버튼*/  
+#login .btn-border {
+	color: #727476;
+	font-size: 15px;
+	border: 1px solid #808080;
+	border-radius: 8px;
+	padding: 1px 25px;
+}
+
+#login a:hover{
+	color: #F8D9DD;
+	border:1px solid #F8D9DD;
+}
+
+/*main 기초*/
+main {
+	text-align: center;
+}
+
+
+/*footer*/
+#footer {
+	background: lightgrey;
+}
+
+
+
+/* Tablet & Desktop Device */
+@media all and (min-width:768px) and (max-width:1140px){
+	.content-container {
+	margin: auto;
+	width: 100%;
+	min-height: inherit;
+	height: inherit;
+	}
+	
+}
+
+/* Mobile Device 768px 미만의 해상도*/
+@media all and (max-width:768px){
+	.content-container {
+	margin: auto;
+	width: 100%;
+	min-height: inherit;
+	height: inherit;
+	}
+	#body div{
+		padding:0px;
+		padding-top:10px;
+	}
+	
+}
+
